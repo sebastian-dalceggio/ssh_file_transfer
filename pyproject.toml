@@ -1,0 +1,21 @@
+[project]
+name = "ssh-file-transfer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datatool",
+    "terraform-utils",
+]
+
+[tool.uv.sources]
+datatool = { git = "https://github.com/sebastian-dalceggio/datatool.git", tag = "v0.1.2" }
+terraform-utils = { git = "https://github.com/sebastian-dalceggio/terraform_utils.git", tag = "v0.1.1" }
+
+[dependency-groups]
+dev = [
+    "mypy>=1.16.1",
+    "pre-commit>=4.2.0",
+    "ruff>=0.12.1",
+]
