@@ -62,7 +62,7 @@ resource "aws_security_group" "ssh_file_transfer_sg" {
   egress {
     from_port   = 0
     to_port     = 0
-    protocol    = "-1" # -1 means all protocols
+    protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
     description = "Allow all outbound traffic"
   }

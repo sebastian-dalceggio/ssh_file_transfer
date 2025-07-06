@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-datatool = { git = "https://github.com/sebastian-dalceggio/datatool.git", tag = "v0.1.2" }
+datatool = { git = "https://github.com/sebastian-dalceggio/datatool.git", tag = "v0.1.3" }
 terraform-utils = { git = "https://github.com/sebastian-dalceggio/terraform_utils.git", tag = "v0.1.1" }
 
 [dependency-groups]
